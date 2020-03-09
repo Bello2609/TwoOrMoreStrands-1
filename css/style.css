@@ -70,9 +70,15 @@ padding-bottom: 10px;
     border-radius: 5px;
   }
   
-  @media screen and ( min-width: 768px ) {
+  @media screen and ( max-width: 768px ) {
+      body{
+          width: 100%;
+            overflow-x: hidden;
+      }
     /* half-width cells for larger devices */
-    .carousel-cell { width: 50%; }
+    .carousel-cell { 
+        width: 50%;
+      }
   }
   .example__demo
   {
