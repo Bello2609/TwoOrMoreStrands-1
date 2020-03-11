@@ -1,6 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
 body{
+  display: block;
+  position: relative;
     width:100%;
-   overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+   
+  
 }
 .navbar-nav
 {
@@ -53,13 +64,14 @@ padding-bottom: 10px;
 }
 .dropup
 {
-   margin-left: 500px;
+   margin-left: 20px;
    margin-bottom: 50px;
-   width: 300px;
+   width: 200px;
    margin-top: 50px;
   
   
 }
+
 /* default full-width cells */
 .carousel-cell {
     width: 100%;
@@ -70,10 +82,7 @@ padding-bottom: 10px;
     border-radius: 5px;
   }
   
-  @media screen and ( min-width: 768px ) {
-    /* half-width cells for larger devices */
-    .carousel-cell { width: 50%; }
-  }
+ 
   .example__demo
   {
       margin-top: 50px;
